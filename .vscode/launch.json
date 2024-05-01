@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PicpaysimplificadoApplication<picpaysimplificado>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.picpaysimplificado.PicpaysimplificadoApplication",
+      "projectName": "picpaysimplificado",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
