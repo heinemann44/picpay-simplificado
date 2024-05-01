@@ -1,0 +1,19 @@
+DELETE FROM USERS;
+
+DELETE FROM WALLETS;
+
+DELETE FROM TRANSACTIONS;
+
+/* Insert users */
+INSERT INTO USERS ( "ID", "FULL_NAME", "DOCUMENT", "EMAIL", "PASSWORD" )
+VALUES ( 1, 'Joao - User', '12345678900', 'joao@test.com', 'senha123' );
+
+INSERT INTO USERS ( "ID", "FULL_NAME", "DOCUMENT", "EMAIL", "PASSWORD" )
+VALUES ( 2, 'Maria - User', '12345678901', 'joao@test.com', 'senha123' );
+
+/* Insert wallets */
+INSERT INTO WALLETS ( "ID", "USER", "TYPE", "BALANCE" )
+VALUES ( 1, 1, 'COMUM' 1000.00 );
+
+INSERT INTO WALLETS ( "ID", "USER", "TYPE", "BALANCE" )
+VALUES ( 2, 2, 'LOJISTA' 1500.00 );
